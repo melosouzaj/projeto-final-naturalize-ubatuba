@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.areaEvent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.areaEvent h4 {
+  font-size: 18px;
+  color: #8FA7B2;
+  font-weight: 400;
+}
+
+.card {
+  width: 708px;
+  background: #fff;
+  margin: 40px 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #40455573;
+}
+
+.card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+  height: 336px;
+}
+
+.containerCard {
+  padding: 33px 80px;
+}
+
+.containerCard h1 {
+  font-size: 54px;
+  color: #404555;
+  margin-bottom: 32px;
+}
+
+.containerCard p {
+  font-size: 18px;
+  color: #898C95;
+  text-align: justify;
+  margin-bottom: 64px;
+  line-height: 28px;
+}
+
+.maps {
+  width: 100%;
+  height: 230px;
+  background: rgb(72, 136, 219);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.linkToGoogleMaps {
+  display: block;
+  padding: 19px 166px;
+  background: rgb(72, 136, 219);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #D3E2E5;
+  margin: 64px 0;
+}
+
+.infoTitle {
+  font-size: 36px;
+  color: #404555;
+  margin-bottom: 32px;
+}
+
+.containerCardAnimals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cardAnimals {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 264px;
+  background: linear-gradient(149.97deg, #E6F7FB 8.13%, #FFFFFF 92.67%);
+  border: 1px solid #B3DAE2;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 32px 27px;
+}
+
+.cardAnimals h1 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.cardAnimals span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cardAnimals img {
+  width: 100%;
+  border-radius: 0;
+  object-fit: contain;
+}

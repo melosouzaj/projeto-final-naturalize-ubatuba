@@ -1,0 +1,39 @@
+.containerSideBar {
+  display: flex;
+  flex-direction: column;
+  width: 96px;
+  height: 100vh;
+  background: rgb(72, 136, 219);
+  padding: 32px 24px;
+}
+
+.areaTop {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.areaTop img {
+  width: 48px;
+}
+
+.areaBottom {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.areaBottom button {
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 16px;
+  background: rgb(72, 136, 219);
+  transition: all 0.2s;
+}
+
+.areaBottom button:hover {
+  background: #0053ed;
+}
