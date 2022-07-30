@@ -19,7 +19,7 @@
 
 .card {
   width: 708px;
-  background: #fff;
+  background: rgb(255, 255, 255);
   margin: 40px 0;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #40455573;
@@ -93,8 +93,8 @@
   display: flex;
   flex-direction: column;
   width: 264px;
-  height: 264px;
-  background: linear-gradient(149.97deg, #E6F7FB 8.13%, #FFFFFF 92.67%);
+  height: 300px;
+  background: linear-gradient(149.97deg, #aee5f1 8.13%, #FFFFFF 92.67%);
   border: 1px solid #B3DAE2;
   box-sizing: border-box;
   border-radius: 20px;
@@ -115,4 +115,12 @@
   width: 100%;
   border-radius: 0;
   object-fit: contain;
+}
+
+.scientific {
+  font-style: italic;
+}
+
+.status {
+  color: rgb(177, 36, 36);
 }

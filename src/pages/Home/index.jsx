@@ -45,7 +45,7 @@ const Home = () => {
           <img src={logo} alt="Naturalize Ubatuba" />
         </div>
         <div className='sidebarMiddle'>
-          <h1>Escolha uma das ilha para visitar!
+          <h1>Escolha uma das ilhas para visitar!
           </h1>
           <span>Descubra as maravilhas de ubatuba</span>
         </div>

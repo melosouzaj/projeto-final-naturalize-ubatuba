@@ -59,8 +59,8 @@ const Event = () => {
                 return (
                   <div className='cardAnimals' key={animal.id}>
                     <h1>Nome: {animal.name}</h1>
-                    <span>Nome Científico: {animal.scientific_name}</span>
-                    <span>Status: {animal.status}</span>
+                    <span>Nome Científico: </span><span className='scientific'>{animal.scientific_name}</span>
+                    <span>Status:</span><span className='status'> {animal.status}</span>
                     <img src={animal.image_url} />
                   </div>
                 )
